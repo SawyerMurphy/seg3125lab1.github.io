@@ -2,14 +2,33 @@
 
 <html>
    
-<title> Hello world </title>
-   
-    <head>SEG 3125 Lab 1: Construction of a Survey</head>
+<title> SEG 3125 Lab 1 </title>
 
     <body style = "background-color: black;"> 
         <form>
-            
+            First name: <input type = "text" name = "firstName"> <br>
 
+            What program are you in? <br>
+            <input type = "radio" value = "CSI">
+            <input type = "radio" value = "CEG">
+            <input type = "radio" value = "SEG">
+            <input type = "radio" value = "Other">
+
+            What semesters of the school year do you like? <br>
+            <input type = "checkbox" value = "Fall">
+            <input type = "checkbox" value = "Winter">
+            <input type = "checkbox" value = "Spring/Summer">
+
+            What year of study are you in? <br>
+            <select name = "year">
+                <option value = "Freshman" selected = "selected"> Freshman (1) </option>
+                <option value = "Sophmore" selected = "selected"> Sophmore (2) </option>
+                <option value = "Junior" selected = "selected"> Junior (3) </option>
+                <option value = "Senior" selected = "selected"> Senior (4) </option>
+                <option value = "Other" selected = "selected"> Other (5+) </option>
+
+            Comments: <br>
+                <textRoom rows = "4" cols = "20"/>
 
         </form>
 
