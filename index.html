@@ -1,37 +1,65 @@
 <!DOCTYPE html>
 
 <html>
-   
+<link rel = "stylesheet" href="styles.css">
 <title> SEG 3125 Lab 1 </title>
 
-    <body style = "background-color: black;"> 
+    <body style = "color: whitesmoke;"> 
         <form>
-            First name: <input type = "text" name = "firstName"> <br>
 
+            <div class="title">
+            SEG 3125 Lab 1: Construction of a Survey
+            </div>    
+            <br> <br>
+
+            <div class="firstQ">
+            First name: <input type = "text" name = "firstName"> 
+            </div>
+            <br> <br>
+
+            <div class="secondQ">
             What program are you in? <br>
-            <input type = "radio" value = "CSI">
-            <input type = "radio" value = "CEG">
-            <input type = "radio" value = "SEG">
-            <input type = "radio" value = "Other">
+            <input type = "radio" name = "program" value = "CSI"> CSI <br>
+            <input type = "radio" name = "program" value = "CEG"> CEG <br>
+            <input type = "radio" name = "program" value = "SEG"> SEG <br>
+            <input type = "radio" name = "program" value = "Other"> Other
+            </div>
+            <br> <br>
 
+            <div class="thirdQ">
             What semesters of the school year do you like? <br>
-            <input type = "checkbox" value = "Fall">
-            <input type = "checkbox" value = "Winter">
-            <input type = "checkbox" value = "Spring/Summer">
+            <input type = "checkbox" value = "Fall"> Fall <br>
+            <input type = "checkbox" value = "Winter"> Winter <br>
+            <input type = "checkbox" value = "Spring/Summer"> Spring/Summer
+            </div>
+            <br> <br>
 
+            <div class="fourthQ">
             What year of study are you in? <br>
             <select name = "year">
-                <option value = "Freshman" selected = "selected"> Freshman (1) </option>
-                <option value = "Sophmore" selected = "selected"> Sophmore (2) </option>
-                <option value = "Junior" selected = "selected"> Junior (3) </option>
-                <option value = "Senior" selected = "selected"> Senior (4) </option>
-                <option value = "Other" selected = "selected"> Other (5+) </option>
+                <option value = "Freshman" selected = "selected"> Freshman (1st year) </option>
+                <option value = "Sophmore" selected = "selected"> Sophmore (2nd year) </option>
+                <option value = "Junior" selected = "selected"> Junior (3rd year) </option>
+                <option value = "Senior" selected = "selected"> Senior (4th year) </option>
+                <option value = "Other" selected = "selected"> Other (5th year and beyond) </option>
+            </select>
+            </div>    
+            <br> <br>
 
+            <div class="comments">
             Comments: <br>
-                <textRoom rows = "4" cols = "20"/>
+                <textarea rows = "4" cols = "40"></textarea>
+            </div>
+            <br> <br>
 
+            <div class = "submitButton">
+                <input type = "submit" value = "Submit">
+            </div>
+            <br> <br>
+
+            <footer> Website designed by Soy </footer>
         </form>
-
     </body>
-
 </html>
+
+<!--All code in index.html and styles.css are a mix of my own work, code from W3Schools, and code from WikiHow-->

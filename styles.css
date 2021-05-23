@@ -1,0 +1,14 @@
+html {
+    height: 100% ;
+}
+
+.title {
+    font-size: 7mm;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #89a7f5, #0c3aaf) ;
+    background-repeat: no-repeat ;
+    background-attachment: fixed ;
+    font-family: 'Times New Roman', Times, serif ;
+}
